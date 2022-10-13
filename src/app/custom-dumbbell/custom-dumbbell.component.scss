@@ -1,0 +1,41 @@
+::ng-deep .chart {
+  .current {
+    fill: #2467d5;
+    cursor: pointer;
+  }
+
+  .dumbbell {
+    font-size: 11px;
+  }
+
+  .future {
+    fill: #2367d5;
+    cursor: pointer;
+  }
+
+  line.between {
+    stroke: #97bfec;
+    stroke-width: 2;
+    stroke-opacity: .6;
+  }
+
+  line.before {
+    stroke: #0e668b;
+    stroke-width: 0.5;
+    stroke-dasharray: 1;
+  }
+
+  .axis text {
+    font: 10px 'Ubuntu', sans-serif;
+    color: #666666;
+  }
+  .axis {
+    .domain {
+      stroke: #888888;
+      stroke-width: 1.5px;
+    }
+    .tick {
+      color: #888888;
+    }
+  }
+}
