@@ -16,10 +16,26 @@ html {
   position: absolute;
   z-index: 10;
   visibility: hidden;
-  background-color: rgba(36, 103, 213, 0.8);
+  background-color: #FFFFFF;
   text-align: center;
-  padding: 6px;
+  padding: 12px;
   border-radius: 4px;
+  color: #666666;
+  font-size: 13px;
+  min-width: 150px;
+  min-height: 180px;
+  box-shadow: 1px 1px 10px #b5b5b5;
+}
+.close {
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  font-weight: lighter;
+  cursor: pointer;
+  background: #aa0e0e;
+  padding: 2px 3px 7px 8px;
+  line-height: 10px;
   color: #FFF;
-  font-size: 12px;
+  border-bottom-left-radius: 30px;
 }
